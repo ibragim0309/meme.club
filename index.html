@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terraria.rom</title>
+    <link rel="stylesheet" type="text/css" href="style/shop.css"> 
+    <link rel="stylesheet" type="text/css" href="style/slider.css"> 
+</head>
+<body>
+ 
+<header class="shop_header">
+  <div class="container">
+    <div class="header_con">
+      <button id="menu" onclick="menuShow()" class="menu">Menu</button>
+      <ul id="list-menu" class="list_menu">
+          <li class="item_menu">Entrance</li>
+          <li class="item_menu">Stocks</li>
+          <li class="item_menu">Purchase history</li>
+          <li class="item_menu">Basket</li>
+        </ul>
+    </div>
+    <h1 class="shop_title">TerrariaShop</h1>
+    <div
+     class="themes">
+      <div onclick="chandgeWhelerabuz()" class="toggle">
+    
+      </div>
+    </div>
+    <div class="nav">
+
+    </div>
+    <div onclick="navr()" class="burger">
+      <div class="burger_line"></div>
+      <div class="burger_line"></div>
+      <div class="burger_line"></div>
+    </div>
+  </div>
+</header> 
+
+
+
+<main class="shop_main">
+  <div class="video">
+    <video autoplay muted loop id="video-miamur" class="terraria">
+      <source src="Video/терария веши.mp4"type='video/mp4'>
+    </video>
+    <div class="video_effects"></div>
+    <div class="video-content">
+      <button class='video_btn' id="play" onclick="played()">play</button>
+      <button class='video_btn' id="mute" onclick='muted()'>mute</button>
+      <button class='video_btn' id="prev" onclick="prev()"> prev</button>
+      <button class='video_btn' id="next" onclick="next()">next</button>
+    </div>
+  </div>
+<section class="shop_product">
+    
+<div class="listProducts">
+
+<div class="product">
+<h2 class="title_product">Skeletron</h2>
+<img src="iamage/Skeletron.jpg" class="img_product">
+<p class="price">20$</p>
+<button onclick="changeColor()" id="btn1" class="btn">Buy</button>
+</div>
+
+</div>
+
+</section>
+<section class="my_slider"></section>
+<div class="itc-slider" data-slider="itc-slider">
+  <div class="itc-slider-wrapper">
+    <div class="itc-slider-items">
+      <div class="itc-slider-item">
+        <img src="iamage/imba.jpg" class="img_product">
+      </div>
+      <div class="itc-slider-item">
+        <img src="iamage/o no poco x3.jpg" class="img_product">
+      </div>
+      <div class="itc-slider-item">
+        <img src="iamage/veri cristmas.jpg" class="img_product">
+      </div>
+    </div>
+  </div>
+  <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+  <button class="itc-slider-btn itc-slider-btn-prev"></button>
+  <button class="itc-slider-btn itc-slider-btn-next"></button>
+</div>
+</section>
+</main>
+
+
+
+<footer class="shop_footer">
+
+  
+</footer>
+
+<script src="scripts/button.js" type="text/javascript"></script>
+<script src="scripts/slider.js" type="text/javascript"></script>
+<script src="scripts/menu.js" type="text/javascript"></script>
+<script src="scripts/theme_change.js" type="text/javascript"></script>
+<script src="scripts/burger.js" type="text/javascript"></script>
+<script src="scripts/video.js" type="text/javascript"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
